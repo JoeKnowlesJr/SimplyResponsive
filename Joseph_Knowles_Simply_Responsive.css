@@ -1,0 +1,59 @@
+*{
+    min-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (max-width: 480px){
+    .sm{
+        content: "Phone: Width less than or equal to 480px;";
+        display: block;
+    }
+    .md{
+        display: none;
+    }
+    .lg{
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px){
+    .md{
+        content: "Phone: Width less than or equal to 480px;";
+        display: block;
+    }
+    .sm{
+        display: none;
+    }
+    .lg{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg{
+        content: "Phone: Width less than or equal to 480px;";
+        display: block;
+    }
+    .sm{
+        display: none;
+    }
+    .md{
+        display: none;
+    }
+}
+h1{
+    background: #b3b3b3;
+    padding: 10px;
+    margin-top: 3px;
+    border: #000 1px solid;
+}
+p{
+    background: #cccccc;
+    padding: 10px;
+    margin-top: 3px;
+    border: #000 1px solid;
+}
+span{
+    background: #ffff9a;
+    padding: 10px;
+    margin-top: 3px;
+    border: #000 1px solid;
+}
